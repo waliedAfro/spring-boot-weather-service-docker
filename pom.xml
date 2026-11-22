@@ -99,14 +99,6 @@
 			</plugin>
 		</plugins>
 
-		<distributionManagement>
-  <repository>
-    <id>github</id>
-    <name>GitHub Packages</name>
-    <url>https://maven.pkg.github.com/waliedAfrospring-boot-weather-service-docker</url>
-  </repository>
-</distributionManagement>
- 
 	</build>
 
 </project>
