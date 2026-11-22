@@ -38,4 +38,8 @@ jobs:
         if: github.event_name == 'release'
         run: mvn --batch-mode --no-transfer-progress deploy -DskipTests -s $GITHUB_WORKSPACE/settings.xml
         env:
+<<<<<<< Updated upstream
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+=======
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+>>>>>>> Stashed changes
