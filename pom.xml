@@ -99,6 +99,7 @@
 			</plugin>
 		</plugins>
 
+	<finalName>afro-weather-service-image</finalName>
 	</build>
 
 </project>
